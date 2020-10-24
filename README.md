@@ -8,7 +8,7 @@
 
 有问题欢迎提出 Issuse。
 
-编译方法请参考[@KumaTea](https://github.com/KumaTea)的文章[支持锐捷认证与IPv6的路由器配置指南：以K2P为例](https://github.com/KumaTea/MentoHUST-SYSU-Guide/blob/master/Guide.md)。
+编译方法请参考[@KumaTea](https://github.com/KumaTea)的文章：[支持锐捷认证与IPv6的路由器配置指南：以K2P为例](https://github.com/KumaTea/MentoHUST-SYSU-Guide/blob/master/Guide.md)。
 
 ## 使用方法
 
