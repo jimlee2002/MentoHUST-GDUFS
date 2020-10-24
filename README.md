@@ -1,3 +1,37 @@
+# MentoHUST-GDUFS
+
+修改自[@ivechan](https://github.com/ivechan)/**[mentohust-SYSU](https://github.com/ivechan/mentohust-SYSU)**，使其适用于 GDUFS。
+
+基于南校区修改，北校区请自行测试可用性。
+
+**仅作为学习EAP， EAPOL协议使用，请勿用于其他用途。后果自负。**
+
+有问题欢迎提出 Issuse。
+
+编译方法请参考[@KumaTea](https://github.com/KumaTea)的文章[支持锐捷认证与IPv6的路由器配置指南：以K2P为例](https://github.com/KumaTea/MentoHUST-SYSU-Guide/blob/master/Guide.md)。
+
+## 使用方法
+
+```bash
+mentohust -u <用户名> -p <密码> -n <网卡> -e 60 -d 1
+```
+
+其他参数请参考`mentohust -h`.
+
+## 参考资料
+
+- [锐捷认证过程分析与第三方锐捷认证客户端的设计与实现](https://github.com/ShanQincheng/jmuSupplicant/blob/master/doc/锐捷认证过程分析与第三方锐捷认证客户端的设计与实现.pdf)，作者为[@ShanQincheng](https://github.com/ShanQincheng) 
+- [Mentohust V4版本的心得](https://codingstory.com.cn/mo-gai-mentohust-v4ban-ben-de-xin-de/)，作者为[@ShanQincheng](https://github.com/ShanQincheng) （这里是该文于[@rensilin](https://github.com/rensilin)/**[mentohust_nwafu](https://github.com/rensilin/mentohust_nwafu)**上的存档，原文链接已失效）
+- [issuse#282: 我校锐捷使用该V4算法，应该是丢失了许多信息，导致无法连接](https://github.com/hyrathb/mentohust/issues/282)
+- [支持锐捷认证与IPv6的路由器配置指南：以K2P为例](https://github.com/KumaTea/MentoHUST-SYSU-Guide/blob/master/Guide.md)，作者为[@KumaTea](https://github.com/KumaTea)
+- [@rensilin](https://github.com/rensilin)/**[mentohust_nwafu](https://github.com/rensilin/mentohust_nwafu)**
+- [@ivechan](https://github.com/ivechan)/**[mentohust-SYSU](https://github.com/ivechan/mentohust-SYSU)**
+- [@shanzhaozhen](https://github.com/shanzhaozhen)/**[mentohust_for_zqu](https://github.com/shanzhaozhen/mentohust_for_zqu)**
+
+以下是原项目内容：
+
+****
+
 现在updateing实现了一个加载支持修改数据包内容的EAPOL认证客户端并将本工程的认证算法做成了插件，更加容易适配各个学校，建议大家尝试https://github.com/updateing/minieap
 
 完全没怎么看原来的代码，瞎改的。
