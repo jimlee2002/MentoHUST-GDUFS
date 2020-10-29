@@ -8,15 +8,22 @@
 
 有问题欢迎提出 Issuse。
 
-编译方法请参考[@KumaTea](https://github.com/KumaTea)的文章：[支持锐捷认证与IPv6的路由器配置指南：以K2P为例](https://github.com/KumaTea/MentoHUST-SYSU-Guide/blob/master/Guide.md)。
+## 编译方法
+请参考以下文章：
+- [支持锐捷认证与IPv6的路由器配置指南：以K2P为例](https://github.com/KumaTea/MentoHUST-SYSU-Guide/blob/master/Guide.md)，作者[@KumaTea](https://github.com/KumaTea)
+- [编译适用于 X86 的 MentoHUST](https://jimlee2002.github.io/posts/5ed2bcfa.html)
+- [使用 WSL 交叉编译 MentoHUST](https://jimlee2002.github.io/posts/4d028789.html)
 
 ## 使用方法
-
+首次使用：
 ```bash
-mentohust -u <用户名> -p <密码> -n <网卡> -e 60 -d 1
+mentohust -u <用户名> -p <密码> -n <wan口对应网卡> -e 60 -d 1
 ```
-
-其他参数请参考`mentohust -h`。
+测试无问题后按 Ctrl+C 暂时退出程序，输入指令：
+```bash
+mentohust -u <用户名> -p <密码> -n <wan口对应网卡> -e 60 -d 1 -b 3 -w
+```
+随后，MentoHUST 会以后台运行模式进行认证，同时保存当前配置信息，以后只需键入`mentohust`即可读取已有配置进行认证。
 
 ## 参考资料
 
