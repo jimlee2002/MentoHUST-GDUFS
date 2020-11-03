@@ -28,7 +28,7 @@ mentohust -u <用户名> -p <密码> -n <wan口对应网卡> -e 60 -d 1 -b 3 -w
 ## 参考资料
 
 - [锐捷认证过程分析与第三方锐捷认证客户端的设计与实现](https://github.com/ShanQincheng/jmuSupplicant/blob/master/doc/锐捷认证过程分析与第三方锐捷认证客户端的设计与实现.pdf)，作者为[@ShanQincheng](https://github.com/ShanQincheng) 
-- [Mentohust V4版本的心得](https://codingstory.com.cn/mo-gai-mentohust-v4ban-ben-de-xin-de/)，作者为[@ShanQincheng](https://github.com/ShanQincheng) （这里是该文于[@rensilin](https://github.com/rensilin)/**[mentohust_nwafu](https://github.com/rensilin/mentohust_nwafu)**上的存档，原文链接已失效）
+- [Mentohust V4版本的心得](https://codingstory.com.cn/mo-gai-mentohust-v4ban-ben-de-xin-de/)，作者为[@ShanQincheng](https://github.com/ShanQincheng) （这里是该文于[@rensilin](https://github.com/rensilin)/[mentohust_nwafu](https://github.com/rensilin/mentohust_nwafu)上的存档，原文链接已失效）
 - [issuse#282: 我校锐捷使用该V4算法，应该是丢失了许多信息，导致无法连接](https://github.com/hyrathb/mentohust/issues/282)
 - [支持锐捷认证与IPv6的路由器配置指南：以K2P为例](https://github.com/KumaTea/MentoHUST-SYSU-Guide/blob/master/Guide.md)，作者为[@KumaTea](https://github.com/KumaTea)
 - [@rensilin](https://github.com/rensilin)/**[mentohust_nwafu](https://github.com/rensilin/mentohust_nwafu)**
