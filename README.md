@@ -1,5 +1,7 @@
 # MentoHUST-GDUFS
 
+**已知问题：部分栋不可用，欢迎issuse反馈**
+
 修改自[@ivechan](https://github.com/ivechan)/**[mentohust-SYSU](https://github.com/ivechan/mentohust-SYSU)**，使其适用于 GDUFS。
 
 基于南校区修改，北校区请自行测试可用性。
